@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/', (req, res) => {
   res.status(200);
   // temporary:
-  res.json({ message: 'hello from server' });
+  res.json({ message: 'hello from updated server!' });
 });
 
 app.use('/api', router);
